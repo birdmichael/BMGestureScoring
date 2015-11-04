@@ -72,12 +72,19 @@
     turntableView.changeProgressValue = ^(float value){
         vc.value = value*100;
         label.text = [NSString stringWithFormat:@"%d",vc.value];
-    };
-    
-            
-            
-            
         
+        // 关闭提示
+        if (vc.value >0 && vc.value <30) {
+            [UIView animateWithDuration:1 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+                reminderView.layer.opacity = 0;
+            } completion:^(BOOL finished) {
+            }];
+        };
+        
+    };
+
+
+    
 
 
 }

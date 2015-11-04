@@ -11,6 +11,7 @@
 		804B5C2A1BE9B4E900D6CD0B /* BMPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 804B5C291BE9B4E900D6CD0B /* BMPieChartView.m */; };
 		804B5C2D1BE9B5BC00D6CD0B /* BMClove.m in Sources */ = {isa = PBXBuildFile; fileRef = 804B5C2C1BE9B5BC00D6CD0B /* BMClove.m */; };
 		804B5C301BE9B6E000D6CD0B /* PICircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 804B5C2F1BE9B6E000D6CD0B /* PICircularProgressView.m */; };
+		804B5C321BE9EF9700D6CD0B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 804B5C311BE9EF9700D6CD0B /* LICENSE */; };
 		806FE8551BE9B02C0090EF70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 806FE8541BE9B02C0090EF70 /* main.m */; };
 		806FE8581BE9B02C0090EF70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 806FE8571BE9B02C0090EF70 /* AppDelegate.m */; };
 		806FE85B1BE9B02C0090EF70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 806FE85A1BE9B02C0090EF70 /* ViewController.m */; };
@@ -47,6 +48,7 @@
 		804B5C2C1BE9B5BC00D6CD0B /* BMClove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMClove.m; sourceTree = "<group>"; };
 		804B5C2E1BE9B6E000D6CD0B /* PICircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PICircularProgressView.h; sourceTree = "<group>"; };
 		804B5C2F1BE9B6E000D6CD0B /* PICircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PICircularProgressView.m; sourceTree = "<group>"; };
+		804B5C311BE9EF9700D6CD0B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		806FE8501BE9B02C0090EF70 /* BMGestureScoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMGestureScoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		806FE8541BE9B02C0090EF70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		806FE8561BE9B02C0090EF70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		806FE8471BE9B02C0090EF70 = {
 			isa = PBXGroup;
 			children = (
+				804B5C311BE9EF9700D6CD0B /* LICENSE */,
 				806FE8521BE9B02C0090EF70 /* BMGestureScoring */,
 				806FE86C1BE9B02C0090EF70 /* BMGestureScoringTests */,
 				806FE8771BE9B02D0090EF70 /* BMGestureScoringUITests */,
@@ -273,6 +276,7 @@
 			files = (
 				806FE8631BE9B02C0090EF70 /* LaunchScreen.storyboard in Resources */,
 				806FE8601BE9B02C0090EF70 /* Assets.xcassets in Resources */,
+				804B5C321BE9EF9700D6CD0B /* LICENSE in Resources */,
 				806FE85E1BE9B02C0090EF70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,9 +450,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BMGestureScoring/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = birdmichael.BMGestureScoring;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -457,9 +463,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BMGestureScoring/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = birdmichael.BMGestureScoring;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
