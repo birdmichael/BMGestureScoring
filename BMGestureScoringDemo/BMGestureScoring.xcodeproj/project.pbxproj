@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		804B5C271BE9B45A00D6CD0B /* BMPostScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 804B5C261BE9B45A00D6CD0B /* BMPostScoreView.m */; };
+		804B5C2A1BE9B4E900D6CD0B /* BMPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 804B5C291BE9B4E900D6CD0B /* BMPieChartView.m */; };
+		804B5C2D1BE9B5BC00D6CD0B /* BMClove.m in Sources */ = {isa = PBXBuildFile; fileRef = 804B5C2C1BE9B5BC00D6CD0B /* BMClove.m */; };
+		804B5C301BE9B6E000D6CD0B /* PICircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 804B5C2F1BE9B6E000D6CD0B /* PICircularProgressView.m */; };
 		806FE8551BE9B02C0090EF70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 806FE8541BE9B02C0090EF70 /* main.m */; };
 		806FE8581BE9B02C0090EF70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 806FE8571BE9B02C0090EF70 /* AppDelegate.m */; };
 		806FE85B1BE9B02C0090EF70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 806FE85A1BE9B02C0090EF70 /* ViewController.m */; };
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		804B5C251BE9B45A00D6CD0B /* BMPostScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMPostScoreView.h; sourceTree = "<group>"; };
+		804B5C261BE9B45A00D6CD0B /* BMPostScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMPostScoreView.m; sourceTree = "<group>"; };
+		804B5C281BE9B4E900D6CD0B /* BMPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMPieChartView.h; sourceTree = "<group>"; };
+		804B5C291BE9B4E900D6CD0B /* BMPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMPieChartView.m; sourceTree = "<group>"; };
+		804B5C2B1BE9B5BC00D6CD0B /* BMClove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMClove.h; sourceTree = "<group>"; };
+		804B5C2C1BE9B5BC00D6CD0B /* BMClove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMClove.m; sourceTree = "<group>"; };
+		804B5C2E1BE9B6E000D6CD0B /* PICircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PICircularProgressView.h; sourceTree = "<group>"; };
+		804B5C2F1BE9B6E000D6CD0B /* PICircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PICircularProgressView.m; sourceTree = "<group>"; };
 		806FE8501BE9B02C0090EF70 /* BMGestureScoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMGestureScoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		806FE8541BE9B02C0090EF70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		806FE8561BE9B02C0090EF70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +90,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		804B5C241BE9B41000D6CD0B /* BMGestureScoring */ = {
+			isa = PBXGroup;
+			children = (
+				804B5C251BE9B45A00D6CD0B /* BMPostScoreView.h */,
+				804B5C261BE9B45A00D6CD0B /* BMPostScoreView.m */,
+				804B5C281BE9B4E900D6CD0B /* BMPieChartView.h */,
+				804B5C291BE9B4E900D6CD0B /* BMPieChartView.m */,
+				804B5C2B1BE9B5BC00D6CD0B /* BMClove.h */,
+				804B5C2C1BE9B5BC00D6CD0B /* BMClove.m */,
+				804B5C2E1BE9B6E000D6CD0B /* PICircularProgressView.h */,
+				804B5C2F1BE9B6E000D6CD0B /* PICircularProgressView.m */,
+			);
+			path = BMGestureScoring;
+			sourceTree = "<group>";
+		};
 		806FE8471BE9B02C0090EF70 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +128,7 @@
 		806FE8521BE9B02C0090EF70 /* BMGestureScoring */ = {
 			isa = PBXGroup;
 			children = (
+				804B5C241BE9B41000D6CD0B /* BMGestureScoring */,
 				806FE8561BE9B02C0090EF70 /* AppDelegate.h */,
 				806FE8571BE9B02C0090EF70 /* AppDelegate.m */,
 				806FE8591BE9B02C0090EF70 /* ViewController.h */,
@@ -270,9 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804B5C271BE9B45A00D6CD0B /* BMPostScoreView.m in Sources */,
 				806FE85B1BE9B02C0090EF70 /* ViewController.m in Sources */,
 				806FE8581BE9B02C0090EF70 /* AppDelegate.m in Sources */,
 				806FE8551BE9B02C0090EF70 /* main.m in Sources */,
+				804B5C301BE9B6E000D6CD0B /* PICircularProgressView.m in Sources */,
+				804B5C2D1BE9B5BC00D6CD0B /* BMClove.m in Sources */,
+				804B5C2A1BE9B4E900D6CD0B /* BMPieChartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +530,7 @@
 				806FE87F1BE9B02D0090EF70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		806FE8801BE9B02D0090EF70 /* Build configuration list for PBXNativeTarget "BMGestureScoringTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +539,7 @@
 				806FE8821BE9B02D0090EF70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		806FE8831BE9B02D0090EF70 /* Build configuration list for PBXNativeTarget "BMGestureScoringUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +548,7 @@
 				806FE8851BE9B02D0090EF70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
